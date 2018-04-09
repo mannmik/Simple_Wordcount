@@ -1,0 +1,16 @@
+<h1> Count </h1>
+
+{{ fulltext }}
+
+<h1> Count of the text is below </h1>
+{{ count }}
+
+<h1> Most Used </h1>
+
+{% for word, total in wordDict %}
+
+{{word}} : {{total}}
+<br/>
+<br/>
+
+{% endfor %}
